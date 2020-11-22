@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WTpPsBjSEeShhubHo6157w" name="Real Time Application">
+  <packagedElement xmi:type="uml:Device" xmi:id="_5r6k0BjSEeShhubHo6157w" name="Hardware">
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_LcJsQBjTEeShhubHo6157w" name="RTOS (Real Time OS)">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_KdRFUBjXEeShhubHo6157w" name="Real Time Application Container">
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_N1qkgBjXEeShhubHo6157w" name="Real Time Application Component 1"/>
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_W-S88BjXEeShhubHo6157w" name="Component 2"/>
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_jtU0UBjXEeShhubHo6157w" name="Component n"/>
+      </nestedNode>
+    </nestedNode>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qUOP0BjXEeShhubHo6157w" name="" memberEnd="_qUOP0RjXEeShhubHo6157w _qURTIBjXEeShhubHo6157w" navigableOwnedEnd="_qUOP0RjXEeShhubHo6157w _qURTIBjXEeShhubHo6157w">
+    <ownedEnd xmi:id="_qUOP0RjXEeShhubHo6157w" name="real Time Application Component 1s" type="_N1qkgBjXEeShhubHo6157w" association="_qUOP0BjXEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qUQsEBjXEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qUQsERjXEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_qURTIBjXEeShhubHo6157w" name="component 2s" type="_W-S88BjXEeShhubHo6157w" association="_qUOP0BjXEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qUR6MBjXEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qUR6MRjXEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_6ZB6wBjYEeShhubHo6157w" name="Communication Point 1"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_C7rRQBjZEeShhubHo6157w" name="Communication Point 2"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HFoJMBjZEeShhubHo6157w" name="IN or OUT" memberEnd="_HFowQBjZEeShhubHo6157w _HFpXUhjZEeShhubHo6157w" navigableOwnedEnd="_HFowQBjZEeShhubHo6157w _HFpXUhjZEeShhubHo6157w">
+    <ownedEnd xmi:id="_HFowQBjZEeShhubHo6157w" name="communication Point 1s" type="_6ZB6wBjYEeShhubHo6157w" association="_HFoJMBjZEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HFpXUBjZEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HFpXURjZEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_HFpXUhjZEeShhubHo6157w" name="communication Point 1s" type="_KdRFUBjXEeShhubHo6157w" association="_HFoJMBjZEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HFp-YBjZEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HFp-YRjZEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LMIrkBjZEeShhubHo6157w" name="IN or OUT" memberEnd="_LMJSoBjZEeShhubHo6157w _LMJ5shjZEeShhubHo6157w" navigableOwnedEnd="_LMJSoBjZEeShhubHo6157w _LMJ5shjZEeShhubHo6157w">
+    <ownedEnd xmi:id="_LMJSoBjZEeShhubHo6157w" name="communication Point 2s" type="_C7rRQBjZEeShhubHo6157w" association="_LMIrkBjZEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LMJ5sBjZEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LMJ5sRjZEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_LMJ5shjZEeShhubHo6157w" name="real Time Application Containers" type="_KdRFUBjXEeShhubHo6157w" association="_LMIrkBjZEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LMKgwBjZEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LMKgwRjZEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_ZQavkBjiEeShhubHo6157w" name="Actor">
+    <generalization xmi:id="_AVuaUBjnEeShhubHo6157w" general="_T000IBjjEeShhubHo6157w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_qqyUsBjiEeShhubHo6157w" name="Application Container">
+    <ownedComment xmi:id="_yR720BjjEeShhubHo6157w" annotatedElement="_T000IBjjEeShhubHo6157w">
+      <body>. . . . . .</body>
+    </ownedComment>
+    <generalization xmi:id="_PbA-cBjnEeShhubHo6157w" general="_T000IBjjEeShhubHo6157w"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_ueTCkBjiEeShhubHo6157w" name="Component 1"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_x4KhYBjiEeShhubHo6157w" name="Component 2"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_0h-cQBjiEeShhubHo6157w" name="Component 3"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2Ux2oBjiEeShhubHo6157w" name="" memberEnd="_2Ux2oRjiEeShhubHo6157w _2UzEwBjiEeShhubHo6157w" navigableOwnedEnd="_2Ux2oRjiEeShhubHo6157w _2UzEwBjiEeShhubHo6157w">
+    <ownedEnd xmi:id="_2Ux2oRjiEeShhubHo6157w" name="component 1s" type="_ueTCkBjiEeShhubHo6157w" association="_2Ux2oBjiEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2UydsBjiEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2UydsRjiEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_2UzEwBjiEeShhubHo6157w" name="component 2s" type="_x4KhYBjiEeShhubHo6157w" association="_2Ux2oBjiEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2UzEwRjiEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2Uzr0BjiEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_78VVABjiEeShhubHo6157w" name="Trigger" memberEnd="_78V8EBjiEeShhubHo6157w _78V8ExjiEeShhubHo6157w" navigableOwnedEnd="_78V8EBjiEeShhubHo6157w _78V8ExjiEeShhubHo6157w">
+    <ownedEnd xmi:id="_78V8EBjiEeShhubHo6157w" name="actors" type="_ZQavkBjiEeShhubHo6157w" association="_78VVABjiEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_78V8ERjiEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_78V8EhjiEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_78V8ExjiEeShhubHo6157w" name="appliaction Containers" type="_T000IBjjEeShhubHo6157w" association="_78VVABjiEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_78WjIBjiEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_78WjIRjiEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_T000IBjjEeShhubHo6157w" name="Container (Cache, Router, Load Balancer)">
+    <ownedComment xmi:id="_np2d0BjjEeShhubHo6157w" annotatedElement="_T000IBjjEeShhubHo6157w">
+      <body>. . . . . .</body>
+    </ownedComment>
+    <generalization xmi:id="_1boEQBjmEeShhubHo6157w" general="_fsNcYBjkEeShhubHo6157w"/>
+    <generalization xmi:id="_OCE1kBjnEeShhubHo6157w" general="_qqyUsBjiEeShhubHo6157w"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_cNHUwBjjEeShhubHo6157w" name="N1"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_g1GzkBjjEeShhubHo6157w" name="Nn"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_jIgZkBjjEeShhubHo6157w" name="N2"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_l2JrkBjjEeShhubHo6157w" name="N3"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_R1jOkBjkEeShhubHo6157w" name="Request / Response" memberEnd="_R1jOkRjkEeShhubHo6157w _R1j1ohjkEeShhubHo6157w" navigableOwnedEnd="_R1jOkRjkEeShhubHo6157w _R1j1ohjkEeShhubHo6157w">
+    <ownedEnd xmi:id="_R1jOkRjkEeShhubHo6157w" name="appliaction Containers" type="_qqyUsBjiEeShhubHo6157w" association="_R1jOkBjkEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R1j1oBjkEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R1j1oRjkEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_R1j1ohjkEeShhubHo6157w" name="container - Cache, Router, Load Balancers" type="_T000IBjjEeShhubHo6157w" association="_R1jOkBjkEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R1j1oxjkEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R1j1pBjkEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_fsNcYBjkEeShhubHo6157w" name="Broadcasting Node">
+    <generalization xmi:id="_xEJGoBjmEeShhubHo6157w" general="_on5vkBjlEeShhubHo6157w"/>
+    <generalization xmi:id="_ycxGcBjmEeShhubHo6157w" general="_kYMqYBjkEeShhubHo6157w"/>
+    <generalization xmi:id="_zbMdkBjmEeShhubHo6157w" general="_tuen0BjlEeShhubHo6157w"/>
+    <generalization xmi:id="_EPSF0BjnEeShhubHo6157w" general="_ZQavkBjiEeShhubHo6157w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_kYMqYBjkEeShhubHo6157w" name="Recipient 1"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_giAmgBjlEeShhubHo6157w" name="Response / update" memberEnd="_giAmgRjlEeShhubHo6157w _giBNkhjlEeShhubHo6157w" navigableOwnedEnd="_giAmgRjlEeShhubHo6157w _giBNkhjlEeShhubHo6157w">
+    <ownedEnd xmi:id="_giAmgRjlEeShhubHo6157w" name="container - Cache, Router, Load Balancers" type="_T000IBjjEeShhubHo6157w" association="_giAmgBjlEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_giBNkBjlEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_giBNkRjlEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_giBNkhjlEeShhubHo6157w" name="broadcasting Nodes" type="_fsNcYBjkEeShhubHo6157w" association="_giAmgBjlEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_giB0oBjlEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_giB0oRjlEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_on5vkBjlEeShhubHo6157w" name="Recipient 2"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_tuen0BjlEeShhubHo6157w" name="Recipient n"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QsTcoBjmEeShhubHo6157w" name="Response / Update" memberEnd="_QsUDsBjmEeShhubHo6157w _QsUqwhjmEeShhubHo6157w" navigableOwnedEnd="_QsUDsBjmEeShhubHo6157w _QsUqwhjmEeShhubHo6157w">
+    <ownedEnd xmi:id="_QsUDsBjmEeShhubHo6157w" name="actors" type="_ZQavkBjiEeShhubHo6157w" association="_QsTcoBjmEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QsUqwBjmEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QsUqwRjmEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_QsUqwhjmEeShhubHo6157w" name="broadcasting Nodes" type="_fsNcYBjkEeShhubHo6157w" association="_QsTcoBjmEeShhubHo6157w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QsVR0BjmEeShhubHo6157w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QsVR0RjmEeShhubHo6157w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

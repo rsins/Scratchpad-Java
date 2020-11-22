@@ -1,0 +1,40 @@
+Question 1:
+
+Your ten year old has just gone back to school and has asked for your help with their homework - bit shifting in C. Yes, our education system is now so advanced they are learning C at ten years old. Your kid is really stuck on this problem, can you help?
+
+(5 << X) + (2 << Y) = 5136.  What are X and Y?
+
+Question 2:
+
+The good news: You've spotted a very rare Pokemon nearby!  The bad news: It's on the other side of a long firing range, with 100 participants lined up firing their guns.
+
+You decide that the best way to reach the Pokemon is to walk across the firing range while looking down at your phone.  
+
+The rules are:
+
+-You only move straight from one end of the firing range to the other
+-You must spend exactly 1 second in each person’s firing line before moving to the next firing line.  At the beginning of each second, you will be in a new firing line.
+-If you are in a person’s firing line at the second in which they are scheduled to fire, you will get shot.
+-Every person in the firing range fires every N seconds, where each person's N could be different
+-In your initial position, you are safe, and you can wait any number of seconds before starting.
+-Everyone fires at time 0. So you want to wait at least 1 second before your first move.
+
+The given input file contains the list of every shooters interval, starting with the shooter closest to your starting point.
+Given the attached file with the frequency of all 100 lanes, how long do you have to wait before starting across without getting shot?
+
+So for example, if there was only 1 lane and the shooters interval was 2, then you'd have to wait 1 second, since at time 0 he shoots and then at time 1 you can be in his lane, and then at time 2 you are across the shooting gallery when he shoots again.
+
+If the file had 3 lanes, with the frequency 2,4,3 - 
+            Start     
+lane 1 (2)  ---------  
+lane 2 (4)  --------- 
+lane 3 (3)  ---------
+            End     
+
+Then you would have to wait 5 seconds to start.
+If you started at time 1: you'd be in lane 1 at time 1, then you would be in lane 2 at time 2 and in lane 3 at time 3, but lane 3 fires at time 3, so you'd die.
+If you started at time 2: you'd be in lane 1 at time 2, so you'd die.
+If you started at time 3: you'd be in lane 1 at time 3, then you would be in lane 2 at time 4 and you'd die.
+If you started at time 4: you'd be in lane 1 at time 4, so you'd die.
+If you started at time 5: you'd be in lane 1 at time 5, then you would be in lane 2 at time 6, then you would be in lane 3 at time 7, then you would be across 
+

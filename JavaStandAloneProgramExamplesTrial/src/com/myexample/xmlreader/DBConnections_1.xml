@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="DBConnections_1-transform.xsl"?>
+
+<Context path="/TableDetails"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="DBConnections_1-schema.xsd">
+
+	<Resource auth="Container" driverClassName="org.gjt.mm.mysql.Driver"
+		maxActive="100" maxIdle="10" maxWait="10000" name="jdbc/datamigration"
+		password="datam" type="javax.sql.DataSource" url="jdbc:mysql://myshec55561d:3306/datamigration"
+		username="datam" />
+	<Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver"
+		maxActive="100" maxIdle="10" maxWait="10000" name="jdbc/datamigration1"
+		password="datam" type="javax.sql.DataSource"
+		url="jdbc:oracle:thin://myshec55561d:3306/datamigration1" username="datam" />
+	<Resource auth="Container" driverClassName="org.gjt.mm.mysql.Driver"
+		maxActive="100" maxIdle="10" maxWait="10000" name="jdbc/dev1"
+		password="qwerty12345" type="javax.sql.DataSource" url="jdbc:mysql://qwer:1111/abcd"
+		username="qwert12" />
+	<Resource auth="Container" driverClassName="org.gjt.mm.mysql.Driver"
+		maxActive="100" maxIdle="10" maxWait="10000" name="jdbc/dev2"
+		password="asdf" type="javax.sql.DataSource" url="jdbc:mysql://asdfasdf:123/asdfasd"
+		username="asdfs" />
+	<Resource auth="Container" driverClassName="com.microsoft.jdbc.sqlserver.SQLServerDriver"
+		maxActive="100" maxIdle="10" maxWait="10000" name="jdbc/dev3"
+		password="asdf" type="javax.sql.DataSource" url="jdbc:sqlserver://asdfasdf:12312/asdfasdf"
+		username="asdf" />
+	<Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver"
+		maxActive="100" maxIdle="10" maxWait="10000" name="jdbc/datam_oracle"
+		password="datam" type="javax.sql.DataSource" url="jdbc:oracle:thin:@myshec103527d:1521:datam"
+		username="datam" />
+
+</Context>

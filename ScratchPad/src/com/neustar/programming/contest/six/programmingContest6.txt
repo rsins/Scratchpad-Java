@@ -1,0 +1,43 @@
+You have one hour to answer as many questions as you can. Do not send your responses by email, but submit them to the following form: http://goo.gl/forms/WPsvLOHhmMMWhvf72
+Only submit the form once, not each time you answer a question. Multiple submissions will be disqualified. 
+
+Question 1:
+
+Consider the following two query results:
+
+SELECT count(*) AS total FROM orders;
++-------+
+| total |
++-------+
+|  100  |
++-------+
+
+SELCT count(*) AS cust_1_total FROM orders WHERE customer_id = '1234';
+
++--------------+
+| cust_1_total |
++--------------+
+|      15      |
++--------------+
+
+Given the above query results, and assuming there is one record where the customer_id is null, what is the count returned by this query: SELECT count(*) FROM orders WHERE customer_id <> '1234';
+
+Question 2:
+
+Counting up from 1, find the first prime number that has more than 5 digits and whose sides equal each other when the digits are added.
+ 
+For a number with an even number of digits like 1234: the sides are 12 and 34. For a number with add odd number of digits, ignore the middle number, so for 12345, the sides are 12 and 45.
+ 
+A 4 digit prime number that falls into such a category would be 1423, as both sides produce the same sum: 1+4 = 2+3.
+
+Question 3:
+
+You are an English professor researching Shakespeare. One of your collegue's says that Shakespeare was lazy and used the same words over and over in his plays. 
+Not wanting to 'Brexit' from the college, you aim to prove him wrong.
+
+Given the two files, hamlet.txt and romeoAndJuliet.txt, how many words do they have in common that start with either the letter e or y? 
+ 
+The following sentence has four distinct words: "Laertes, son to Polonius."
+The following sentence has no words: “1604"
+The following sentence has seven distinct words: "Therefore, if thou art moved, thou runn'st away."
+The following sentence has eight distinct words: "Go, nurse, go with her: we'll to church to-morrow."

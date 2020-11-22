@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Context">
+	<xs:complexType>
+		<xs:sequence minOccurs="1" maxOccurs="unbounded">
+			<xs:element name="Resource">
+				<xs:complexType>
+					<xs:attribute name="auth" type="xs:string" use="required"></xs:attribute>
+					<xs:attribute name="driverClassName" type="xs:string" use="required"></xs:attribute>
+					<xs:attribute name="maxActive" type="xs:integer" use="required"></xs:attribute>
+					<xs:attribute name="maxIdle" type="xs:integer" use="required"></xs:attribute>
+					<xs:attribute name="maxWait" type="xs:integer" use="required"></xs:attribute>
+					<xs:attribute name="name" type="xs:string" use="required"></xs:attribute>
+					<xs:attribute name="type" type="xs:string" use="required"></xs:attribute>
+					<xs:attribute name="url" type="xs:string" use="required"></xs:attribute>
+					<xs:attribute name="username" type="xs:string" use="required"></xs:attribute>
+					<xs:attribute name="password" type="xs:string" use="required"></xs:attribute>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="path" type="xs:string" use="required"></xs:attribute>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

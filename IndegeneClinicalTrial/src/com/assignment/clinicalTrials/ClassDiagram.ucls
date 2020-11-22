@@ -1,0 +1,74 @@
+<class-diagram version="1.0.11" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="com.assignment.clinicalTrials.Survey" 
+    project="IndegeneClinicalTrial" file="/IndegeneClinicalTrial/src/com/assignment/clinicalTrials/Survey.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="417" y="327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" 
+    name="com.assignment.clinicalTrials.ClinicalTrialEligiblityCriteria" project="IndegeneClinicalTrial" 
+    file="/IndegeneClinicalTrial/src/com/assignment/clinicalTrials/ClinicalTrialEligiblityCriteria.java" binary="false">    
+    <position height="-1" width="-1" x="155" y="326"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="com.assignment.clinicalTrials.Patient" 
+    project="IndegeneClinicalTrial" file="/IndegeneClinicalTrial/src/com/assignment/clinicalTrials/Patient.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="550" y="112"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="com.assignment.clinicalTrials.ClinicalTrial" 
+    project="IndegeneClinicalTrial" file="/IndegeneClinicalTrial/src/com/assignment/clinicalTrials/ClinicalTrial.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="153" y="110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="com.assignment.clinicalTrials.SurveyAnswer" 
+    project="IndegeneClinicalTrial" file="/IndegeneClinicalTrial/src/com/assignment/clinicalTrials/SurveyAnswer.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="675" y="335"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <dependency id="6">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="9">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="10" name="clinicalTrialEligiblityCriteria"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

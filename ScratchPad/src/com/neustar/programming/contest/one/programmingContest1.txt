@@ -1,0 +1,37 @@
+There are two parts to the challenge, part 1 and part 2. Email me back the sum of the answer to part 1 + the answer to part 2. You may only submit one answer so make sure it's correct before you submit.
+Any answers submitted after 2pm will not be eligible to win.
+
+Each part has its own input file, input1.txt is for part 1 and input2.txt is for part 2.
+
+PART 1:
+
+Uncle Simon's watering service has been tasked with watering poinsettias planted in an endless two-dimensional grid.
+
+Simon begins by watering the plant at his starting location. Xavier, back at headquarters, then texts Simon and tells him how to move to get to the next plant to water. If he wants him to move up the field to the next plant, he will send "^", to move down the field he would send "v", to move left "<" and to move right ">". After moving to the new location, Simon waters the plant there.
+
+Xavier it seems has had a little too much eggnog however and his directions are a bit messed up. This results in Simon watering some plants multiple times. 
+
+Following the instructions in input1.txt, how many plants get at least some water?
+
+IE:
+
+If Simon receives >, two plants are watered. One where he started and one to the right.
+If Simon receives v<^>, four plants are watered in a squared with the plant at the start/finish getting watered twice.
+If Simon receives v^v^v^, two plants are watered a bunch!   
+
+PART 2:
+
+Uncle Simon's watering service has now been tasked with fixing the sprinklers at Qualcomm stadium. There are a million sprinkler heads on the field arranged in a one thousand by one thousand grid.
+
+The problem is that only certain sprinkler heads need to be turned on to effectively water the field. Before the old sprinkler manager left for LA he left a detailed set of instructions on how to turn them on.
+
+Starting at the corner of the field the sprinklers are numbered 0 up to nine hundred and ninety nine each way, so the sprinklers at each corner of the field are 0,0, 0,999, 999,0, 999,999. The instructions that were left say whether to toggle (turn on if off and vice-versa), turn off or turn on certain inclusive ranges of sprinkler heads, given as a pair of coordinates. The pairs of coordinates represent the opposite corners of a rectangle, inclusive. So for example a pair like 0,0 through 1,1 represents 4 sprinkler heads in a 2x2 square. 
+
+All of the sprinkler heads are initially off.
+
+After running through the old sprinkler managers directions in input2.txt, how many sprinkler heads are on?
+
+IE:
+turn on 0,0 through 999,999 turns every sprinkler head on or leaves it on if already on
+toggle 0,0 through 999,0 toggles the first line of sprinkler heads (if a head is on, it turns off and vice-versa)
+turn off 499,499 through 500,500 turns off the 4 middle sprinkler heads or leaves them off

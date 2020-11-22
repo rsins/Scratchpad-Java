@@ -1,0 +1,11 @@
+val showViewFile = sc.textFile("file:///D:\\Ravi\\My_Programs\\Eclipse_Workspace\\hadoop-spark\\src\\main\\java\\com\\coursera\\week4\\join2_gennum?.txt")
+val showViews = showViewFile.map(line => line.split(","))
+val showViewsDF = showViews.map( a => (a(0), a(1).toInt)).toDF("showName", "viewCount")
+
+val showChannelFile = sc.textFile("file:///D:\\Ravi\\My_Programs\\Eclipse_Workspace\\hadoop-spark\\src\\main\\java\\com\\coursera\\week4\\join2_genchan?.txt")
+val showChannels = showChannelFile.map(line => line.split(","))
+val showChannelsDF = showChannels.map( a => (a(0), a(1))).toDF("showName", "channelName")
+
+val joinedDataset = showViewsDF.join(showChannelsDF, "showName")
+val channelViewCounts = joinedDataset.groupBy("ChannelName").sum("ViewCount");
+channelViewCounts.show()

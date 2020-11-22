@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="databases">
+	<xs:complexType>
+		<xs:sequence minOccurs="1" maxOccurs="unbounded">
+			<xs:element name="database">
+				<xs:complexType>
+					<xs:sequence minOccurs="1" maxOccurs="1">
+						<xs:element name="auth" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+						<xs:element name="driverClassName" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+						<xs:element name="maxActive" type="xs:integer" minOccurs="1" maxOccurs="1"></xs:element>
+						<xs:element name="maxIdle" type="xs:integer" minOccurs="1" maxOccurs="1"></xs:element>
+						<xs:element name="maxWait" type="xs:integer" minOccurs="1" maxOccurs="1"></xs:element>
+						<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+						<xs:element name="type" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+						<xs:element name="url" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+						<xs:element name="username" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+						<xs:element name="password" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

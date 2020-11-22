@@ -1,0 +1,39 @@
+You work for the U.S. Fish and Wildlife service, as a Wildlife Trafficking Investigator.
+
+This year's hot animal is the Canadian Lynx and your team is in the midst of a big case against Evil Trafficking Syndicate for $2.5 billion of illegal trafficking of this animal.
+ 
+You are sifting through their paper trails to find more members of their nefarious network. 
+You have a file of 5000 accounts where the ETS sent money recently. You are cross-referencing this file for suspicious activity.
+ 
+The file is a list of account numbers, each 10 digits long. In order to better mask their tracks, they didn't use regular numbers, but instead a graphical representation of the numbers that look like:
+ _    _  _     _  _ 
+| | | _| _||_||_ |_ 
+|_| ||_  _|  | _||_|
+
+Example account number:
+ _  _  _     _  _  _  _  _    
+ _|| || ||_| _||_  _||_ |_ |_|
+ _||_||_|  | _||_| _||_||_|  |
+
+The account numbers only use the digits 0-6, are written over 3 lines, using pipes and underscores and each line has 30 characters. 
+ 
+Questions to answer:
+
+* You're particularly interested in transactions involving the Silva Casino, whose account numbers all have five consecutive 3s. 
+  What are all the account numbers with five consecutive 3s in them?
+
+Example:
+3332432123 does NOT have 5 consecutive 3s in it
+4213333313 does have 5 consecutive 3s in it
+ 
+* Given the following checksum calculation, how many of the account numbers are valid?
+
+Checksum:  (d0 + 2 * d1 + 3 * d2 + 4 * d3 + .. + 10 * d9) mod 12 = 0 where d0, d1... is the digit position in the 10 digit account number.
+
+Example:
+account number:   3  3  4  5  1  0  2  0  6  5
+position names:  d0 d1 d2 d3 d4 d5 d6 d7 d8 d9
+
+(3 + 2 * 3 + 3 * 4 + 4 * 5 + 5 * 1 + 6 * 0 + 7 * 2 + 8 * 0 + 9 * 6 + 10 * 5) mod 12 = 8 so this account number is NOT valid.
+
+Email your answer to both questions to simon.nicoud@neustar.biz. Only your first submission will count towards a prize.

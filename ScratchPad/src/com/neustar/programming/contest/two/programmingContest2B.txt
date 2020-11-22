@@ -1,0 +1,11 @@
+Neustar numbers are positive integers composed only of the digits ‘4’ and ‘7’. For example, 47477 and 777 are Neustar numbers while 457 and 1232 are not. 
+ 
+Awesome Neustar numbers have the following additional properties: 
+                • They are a Neustar number themselves
+                • Number of digits in them is a Neustar number 
+                • The number of ‘4’s or the number of ‘7’s in them is a Neustar number (or both counts are Neustar numbers). 
+ 
+A palindrome is an integer that reads the same forwards and backwards. For example, 547745 and 343 are palindromes while 74 and 12345 are not.
+ 
+An Awesome Neustar palindrome is a positive integer that is both a Awesome Neustar number and a palindrome. What is the 9th Awesome Neustar palindrome, counting up from 1?
+Send your answer along with source code for both parts to simon.nicoud@neustar.biz. The first correct answer received wins.

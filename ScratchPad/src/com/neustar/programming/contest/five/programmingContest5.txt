@@ -1,0 +1,43 @@
+Hi!
+
+When you are done this time, do not send your responses by email, but submit them in the following form: http://goo.gl/forms/WPsvLOHhmMMWhvf72
+Only your first submission counts. 
+
+Question 1:
+
+You're buying a used car on craigslist and the car shows it currently has 190,000 miles on the odometer. However, the owner stated that this number is false because the digital odometer was produced by Takata which was part of a recall. Any time that the mileage would have matched any of these conditions, it didn't actually show that number and went right to the next number.
+
+Condition 1: The mileage would be evenly divisible by 7.
+Condition 2: The mileage would contain a '2' digit in any position.
+Condition 3: The sum of the digits would be greater than 20. 
+
+What is the true mileage of the car?
+
+For for example, if the car's odometer said 10, then the true mileage would be 8 because it would have skipped the '2' mile and the '7' mile.
+
+Question 2, 3 and 4 make use of the attached crime statistics csv file - SacramentoCrimeJanuary2006.csv
+
+Question 2:
+
+What is the average number of crimes that took place per hour over the entire month (Rounded to three decimal points)?
+
+Question 3:
+
+Which street in Sacramento reported the most crimes? If the address is given as the intersection of two addresses as in 13 st / G st, then that would count as having occurred on both streets.
+
+Question 4:
+
+Using the crime statistics and the attached DecisionTree.gif diagram, we want to try to predict the type of crime (ucr_ncic_code field) based on when and where it occurred.
+Implement the attached process for crime classification, which uses the grid variable, and the hour_of_day. Derive this second field from the cdatetime field, and maintain the 24-hour clock.
+ 
+Return the number of times this process assigns the correct ucr_ncic_code.
+
+
+------------------
+Answers:
+The answers were:
+
+1. 27538
+2. 10.194
+3. FRANKLIN BLVD
+4. 2477
