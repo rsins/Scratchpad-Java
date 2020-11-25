@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ChessBoardGame_Full/ChessBoardGame_Full.iml" filepath="$PROJECT_DIR$/ChessBoardGame_Full/ChessBoardGame_Full.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChessBoardGame_Knights/ChessBoardGame_Knights.iml" filepath="$PROJECT_DIR$/ChessBoardGame_Knights/ChessBoardGame_Knights.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Coursera Project_Algorithms Part I/Coursera Project.iml" filepath="$PROJECT_DIR$/Coursera Project_Algorithms Part I/Coursera Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Coursera Project_Advance Data Structures In Java_UCSDGraphs/Coursera Project_Advance Data Structures In Java_UCSDGraphs.iml" filepath="$PROJECT_DIR$/Coursera Project_Advance Data Structures In Java_UCSDGraphs/Coursera Project_Advance Data Structures In Java_UCSDGraphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Coursera Project_Algorithms Part 2/Coursera Project_Algorithms Part 2.iml" filepath="$PROJECT_DIR$/Coursera Project_Algorithms Part 2/Coursera Project_Algorithms Part 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GroovyStandAloneProgramExamplesTrial/GroovyStandAloneProgramExamplesTrial.iml" filepath="$PROJECT_DIR$/GroovyStandAloneProgramExamplesTrial/GroovyStandAloneProgramExamplesTrial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HeadFirst_DesignPatternExamples/HeadFirst_DesignPatternExamples.iml" filepath="$PROJECT_DIR$/HeadFirst_DesignPatternExamples/HeadFirst_DesignPatternExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IndegeneClinicalTrial/IndegeneClinicalTrial.iml" filepath="$PROJECT_DIR$/IndegeneClinicalTrial/IndegeneClinicalTrial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Application 1/Java Application 1.iml" filepath="$PROJECT_DIR$/Java Application 1/Java Application 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaMavenExamplesTrial/JavaMavenExamplesTrial.iml" filepath="$PROJECT_DIR$/JavaMavenExamplesTrial/JavaMavenExamplesTrial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LRUCache/JavaProject.iml" filepath="$PROJECT_DIR$/LRUCache/JavaProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStandAloneProgramExamplesTrial/JavaStandAloneProgramExamplesTrial.iml" filepath="$PROJECT_DIR$/JavaStandAloneProgramExamplesTrial/JavaStandAloneProgramExamplesTrial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOnlinePuzzleTrials/JavaTrialAndExamplesProject.iml" filepath="$PROJECT_DIR$/JavaOnlinePuzzleTrials/JavaTrialAndExamplesProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Model_ChessBoardGame/Model_ChessBoardGame.iml" filepath="$PROJECT_DIR$/Model_ChessBoardGame/Model_ChessBoardGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Model_Example_TravelAgency/Model_Example_TravelAgency.iml" filepath="$PROJECT_DIR$/Model_Example_TravelAgency/Model_Example_TravelAgency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Model_RealTimeApplication/Model_RealTimeApplication.iml" filepath="$PROJECT_DIR$/Model_RealTimeApplication/Model_RealTimeApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScratchPad/ScracthPad.iml" filepath="$PROJECT_DIR$/ScratchPad/ScracthPad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScratchPad_PyDev/ScratchPad_PyDev.iml" filepath="$PROJECT_DIR$/ScratchPad_PyDev/ScratchPad_PyDev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScratchPad_Scala/ScratchPad_Scala.iml" filepath="$PROJECT_DIR$/ScratchPad_Scala/ScratchPad_Scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Scratchpad-Java.iml" filepath="$PROJECT_DIR$/.idea/Scratchpad-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadoop-spark/hadoop-spark.iml" filepath="$PROJECT_DIR$/hadoop-spark/hadoop-spark.iml" />
+    </modules>
+  </component>
+</project>

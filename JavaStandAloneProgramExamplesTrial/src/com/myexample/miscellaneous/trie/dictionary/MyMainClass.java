@@ -55,7 +55,7 @@ public class MyMainClass {
 			String[] myWordMeaning = null;
 			
 			try {
-				myFileReader = new BufferedReader(new FileReader(System.getProperty("user.dir") + "/src/com/myexample/miscellaneous/trie/dictionary/Input.txt"));
+				myFileReader = new BufferedReader(new FileReader(System.getProperty("user.dir") + "/JavaStandAloneProgramExamplesTrial/src/com/myexample/miscellaneous/trie/dictionary/Input.txt"));
 				
 				myLine = myFileReader.readLine();
 				
