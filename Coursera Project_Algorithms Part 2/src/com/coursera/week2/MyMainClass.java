@@ -17,7 +17,7 @@ public class MyMainClass {
 		
 		// removeSeamTest();
 		
-		resizeTest2(System.getProperty("user.dir") + File.separator + "resources"+ File.separator + "week2"+ File.separator + "seamCarving"+ File.separator + "HJocean.png", 200, 200);
+		resizeTest2(System.getProperty("user.dir") + File.separator + "Coursera Project_Algorithms Part 2" + File.separator + "resources"+ File.separator + "week2"+ File.separator + "seamCarving"+ File.separator + "HJocean.png", 200, 200);
 	}
 	
 	private static void removeSeamTest() {

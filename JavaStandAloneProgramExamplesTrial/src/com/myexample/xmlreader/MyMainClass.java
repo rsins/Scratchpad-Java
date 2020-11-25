@@ -4,9 +4,9 @@ import java.io.PrintStream;
 
 public class MyMainClass {
 	private final static String XML_FILE1_PATH 
-	= System.getProperty("user.dir") + "\\src\\com\\myexample\\xmlreader\\DBConnections_1.xml";
+	= System.getProperty("user.dir") + "/JavaStandAloneProgramExamplesTrial/src/com/myexample/xmlreader/DBConnections_1.xml";
 	private final static String XML_FILE2_PATH
-	= System.getProperty("user.dir") + "\\src\\com\\myexample\\xmlreader\\DBConnections_2.xml";
+	= System.getProperty("user.dir") + "/JavaStandAloneProgramExamplesTrial/src/com/myexample/xmlreader/DBConnections_2.xml";
 	
 	public static void main(String[] args) {
 		PrintStream myPrintStream = System.out;
